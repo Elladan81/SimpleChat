@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 
-def index(request):
+def join_room(request):
     return render(request, 'chat/index.html', {})
 
 
